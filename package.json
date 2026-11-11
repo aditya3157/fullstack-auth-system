@@ -1,0 +1,24 @@
+{
+  "name": "fullstack-auth-system",
+  "version": "1.0.0",
+  "description": "Fullstack Authentication & Profile Management System with React, Node.js, Express, and SQLite",
+  "main": "run-dev.js",
+  "scripts": {
+    "start": "node run-dev.js",
+    "dev": "node run-dev.js",
+    "server": "npm --prefix server start",
+    "client": "npm --prefix client run dev",
+    "seed": "node server/seed.js"
+  },
+  "keywords": [
+    "react",
+    "authentication",
+    "jwt",
+    "bcrypt",
+    "sqlite",
+    "express",
+    "profile-management"
+  ],
+  "author": "",
+  "license": "MIT"
+}

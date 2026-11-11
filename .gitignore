@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+*/node_modules/
+
+# Production builds
+dist/
+build/
+*/dist/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+*/.env
+
+# SQLite WAL and lock files (keep base auth.db if desired or ignore)
+*.db-journal
+*.db-wal
+*.db-shm
+
+# System and logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.DS_Store
+Thumbs.db
+*.zip
+.system_generated/
